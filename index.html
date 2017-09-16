@@ -1,85 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Apply to ARIS</title>
-</head>
-<body>
-	<div class="wrapper">
-		<div class="header">
-			<img id="logo" src="https://aris.edu.gh/img/brand/aris-logo.png" width="401px" height="75px">
-		</div>
-		<p>The ARIS Admission personnel are available to help you determine that the school is right for you. ARIS <a href="https://aris.edu.gh/admissions">has a number of different resources online</a> to accompany you during this stage of the enquiry and/or application process. Once you have decided to apply to ARIS, the time comes for submitting the online application packet. Hard copy applications may be downloaded and <a href="mailto:communication@aris.edu.gh">submitted by email</a> or via post.</p>
+		<title>Apply to ARIS</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<img id="logo" src="https://aris.edu.gh/img/brand/aris-logo.png" width="401px" height="75px">
+			</div>
+			<p>Applying to ARIS is simple. Fill out the online form and upload your documents. That’s it! Admission applications are accepted throughout the year; there are no deadlines to apply. Admission seat offers take one to two weeks.
 
-		<!-- Styles before the form loads -->
-		
-		<style>
+			<br><br>Hard copy applications may be downloaded and <a href="mailto:communication@aris.edu.gh">submitted by email</a> or in person. If you have any questions, email communication@aris.edu.gh.</p>
 
-			body{
-				font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-				color: #444;
-			}
-
-			img{
-				max-width:100%;
-				height:auto;
-			}
-
-			p{
-				margin: 2em 0;
-			    font-size: 18px;
-			    line-height: 1.3;
-			    padding: 1.3em 0;
-			    border-top: 1px dotted #1f97a0;
-			    border-bottom: 1px dotted #1f97a0;
-			}
-			.wrapper{
-				width:90%;
-				max-width:800px;
-				margin:2em auto;
-			}
-		</style>
-
-		<div class="application_form">
-
-
-			<script type="text/javascript">
-		        var fwq = {
-		            apiRootUrl: 'https://aris.isams.co.uk:443/api/Rest/1.0/',
-		            apiKey: '87C9BD5D-609E-4050-A3D9-06849F7AA68C',
-		            formInstance: 'aff4dbcc-f2c0-449a-a793-1e91e1852650',
-		            loadCustomJavascript: false,
-		            loadCustomCss: false
-		        };
-			</script>
-			 
-		    <script iw-id="isams-widgets" src="https://aris.isams.co.uk:443/api/widgets/isams-widgets.min.js"></script>
-		 
-		    <div iw-id="admissions-enquiry"></div>
+			<!-- Styles before the form loads -->
 			
+			<style>
+
+				body{
+					font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+					color: #444;
+				}
+
+				img{
+					max-width:100%;
+					height:auto;
+				}
+
+				p{
+					margin: 2em 0;
+				    font-size: 18px;
+				    line-height: 1.3;
+				    padding: 1.3em 0;
+				    border-top: 1px dotted #1f97a0;
+				    border-bottom: 1px dotted #1f97a0;
+				}
+				.wrapper{
+					width:90%;
+					max-width:800px;
+					margin:2em auto;
+				}
+			</style>
+
+			<div class="application_form">
+
+
+				<script type="text/javascript">
+			        var fwq = {
+			            apiRootUrl: 'https://aris.isams.co.uk:443/api/Rest/1.0/',
+			            apiKey: '87C9BD5D-609E-4050-A3D9-06849F7AA68C',
+			            formInstance: 'aff4dbcc-f2c0-449a-a793-1e91e1852650',
+			            loadCustomJavascript: false,
+			            loadCustomCss: false
+			        };
+				</script>
+				 
+			    <script iw-id="isams-widgets" src="https://aris.isams.co.uk:443/api/widgets/isams-widgets.min.js"></script>
+			 
+			    <div iw-id="admissions-enquiry"></div>
+				
+			</div>
+
+			<!-- Styles to override remote styles of form -->
+			<style>
+				.panel-group .panel-heading{
+					color:white;
+					background:#1f97a0;
+				}
+				.panel-group .panel-heading .panel-title{
+					color:white;
+				}
+
+				.panel-group .formfield .panel-heading .panel-title span::before{
+					background-color:silver;
+				}
+
+				.panel-group .formfield .panel-heading .panel-title span.text-muted::before, .panel-group .panel-heading .text-muted {
+					color: #9bb3b3;
+				}
+
+			</style>
 		</div>
-
-		<!-- Styles to override remote styles of form -->
-		<style>
-			.panel-group .panel-heading{
-				color:white;
-				background:#1f97a0;
-			}
-			.panel-group .panel-heading .panel-title{
-				color:white;
-			}
-
-			.panel-group .formfield .panel-heading .panel-title span::before{
-				background-color:silver;
-			}
-
-			.panel-group .formfield .panel-heading .panel-title span.text-muted::before, .panel-group .panel-heading .text-muted {
-				color: #9bb3b3;
-			}
-
-		</style>
-	</div>
-</body>
-</html>
+	</body>
+	</html>
