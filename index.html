@@ -55,21 +55,24 @@
 
 			<div class="application_form">
 
+                <script type="text/javascript">
+                    var fwq = {
+                    apiRootUrl: 'https://aris.isams.co.uk:443/api/Rest/1.0/',
+                    apiKey: '87C9BD5D-609E-4050-A3D9-06849F7AA68C',
+                    formInstance: '594323f7-b0cf-411d-8a88-aa25e04900e7',
+                    loadCustomJavascript: false,
+                    loadCustomCss: false
+                };
+                </script>
 
-				<script type="text/javascript">
-			        var fwq = {
-			            apiRootUrl: 'https://aris.isams.co.uk:443/api/Rest/1.0/',
-			            apiKey: '87C9BD5D-609E-4050-A3D9-06849F7AA68C',
-			            formInstance: 'aff4dbcc-f2c0-449a-a793-1e91e1852650',
-			            loadCustomJavascript: false,
-			            loadCustomCss: false
-			        };
-				</script>
+                <script iw-id="isams-widgets"
+                        src="https://aris.isams.co.uk:443/api/widgets/isams-widgets.min.js">
+                </script>
+
+                <div iw-id="admissions-enquiry"> </div>
 				 
-			    <script iw-id="isams-widgets" src="https://aris.isams.co.uk:443/api/widgets/isams-widgets.min.js"></script>
+			    
 			 
-			    <div iw-id="admissions-enquiry"></div>
-				
 			</div>
 
 			<!-- Styles to override remote styles of form -->
